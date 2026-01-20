@@ -1,270 +1,334 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>BlueBoxx DA</title>
-  <link rel="stylesheet" href="style.css"/>
+  <meta charset="UTF-8">
+  <title>BLUEBOXX | Skill First Platform</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
+<nav class="navbar">
+  <div class="container nav-flex">
 
-<!-- NAVBAR -->
-<header class="navbar">
-  <div class="logo">
-    <img src="https://dummyimage.com/40x40/0b1c2d/f9c74f&text=B" />
-    <span>BLUEBOXX DA</span>
+    <!-- LOGO -->
+    <div class="logo">BLUEBOXX</div>
+<!--NAVBAR-->
+    <div class="nav-right">
+      <ul class="nav-links">
+        <li><a href="#jobs">Jobs</a></li>
+        <li><a href="#internships">Internships</a></li>
+        <li><a href="#students">Students</a></li>
+        <li><a href="#companies">Companies</a></li>
+      </ul>
+
+      <div class="nav-buttons">
+        <button class="btn outline small">Login</button>
+        <button class="btn primary small">Sign Up</button>
+      </div>
+    </div>
+
   </div>
+</nav>
 
-  <nav>
-    <a href="#">Our Learning Tools</a>
-    <a href="#">Jobs</a>
-    <a href="#">InternShip</a>
-    <a href="#">Mentor</a>
-    <a href="#">Our Partners</a>
-    <a href="#">Our Services</a>
-  </nav>
 
-  <div class="nav-btns">
-    <button class="login">Login</button>
-    <button class="signup">Sign Up</button>
-  </div>
-</header>
 
-<!-- HERO SECTION -->
-
+<!-- HERO -->
 <section class="hero">
-
-  <div class="hero-left">
-    <h1>
-      A Platform to Learn creatively,
-      Earn confidently,
-      Grow continuously,
-      and Succeed proudly.
-    </h1>
-
-    <p>
-      Build skills with courses, certificates, and degrees online
-      from world-class universities and companies
-    </p>
-    <div class="hero-buttons">
-  <button class="primary-btn">View All Courses</button>
-  <button class="text-btn">View All Quizzes</button>
-</div>
-
-  </div>
-
-  <div class="hero-right">
-
-    <div class="image-card small">
-      <img src="https://images.unsplash.com/photo-1522202176988-66273c2fd55f" />
-      <div class="rating">
-        ⭐⭐⭐⭐⭐
-        <span>5300+ Rating</span>
+  <div class="container hero-grid">
+    <div class="hero-text">
+      <h1>Skill-First Hiring<br>Powered by Tasks</h1>
+      <p>
+        A unified platform for jobs, internships and task-based hiring.
+        Build skills. Prove talent. Get hired.
+      </p>
+      <div class="hero-btns">
+        <button class="btn primary">Explore Jobs</button>
+        <button class="btn outline">Post a Task</button>
       </div>
     </div>
 
-    <div class="image-card large">
-      <img src="https://images.unsplash.com/photo-1600880292203-757bb62b4baf" />
+    <div class="hero-image">
+      <img src="assets/hero.jpg" alt="AI Platform">
+    </div>
+  </div>
+</section>
 
-      <div class="course-box">
-        <img src="https://cdn-icons-png.flaticon.com/512/906/906175.png">
-        <div>
-          <strong>7100+</strong>
-          <p>Free Courses</p>
-        </div>
+<section class="section">
+  <div class="container overview-grid">
+    <img src="assets/dashboard.png" alt="Dashboard" class="dashboard-img"> 
+    <div>
+      <h2>One Unified Career Platform</h2>
+      <p>
+        BLUEBOXX bridges the gap between students and companies
+        through real-world tasks, skill profiles, and performance-based hiring.
+      </p>
+    </div>
+  </div>
+</section>
+
+    
+<section class="section dark">
+  <div class="container">
+    <h2 class="center-heading">Latest Jobs</h2>
+
+    <div class="jobs-grid">
+
+      <!-- JOB CARD 1 -->
+      <div class="job-card">
+        <div class="job-icon">💻</div>
+        <h3>Frontend Developer</h3>
+        <p class="company">Blueboxx Tech · Remote</p>
+        <button class="btn primary small">Apply Now</button>
       </div>
+
+      <!-- JOB CARD 2 -->
+      <div class="job-card">
+        <div class="job-icon">🎨</div>
+        <h3>UI/UX Designer</h3>
+        <p class="company">Creative Labs · Vadodara</p>
+        <button class="btn primary small">Apply Now</button>
+      </div>
+
+      <!-- JOB CARD 3 -->
+      <div class="job-card">
+        <div class="job-icon">📈</div>
+        <h3>Digital Marketer</h3>
+        <p class="company">GrowthX · Hybrid</p>
+        <button class="btn primary small">Apply Now</button>
+      </div>
+
+    </div>
+  </div>
+</section>
+<section class="section dark">
+  <div class="container">
+    <h2 class="center-heading">Internships</h2>
+
+    <div class="internship-grid">
+
+      <!-- INTERNSHIP 1 -->
+      <div class="internship-card">
+        <div class="internship-icon">💻</div>
+        <h3>Web Development</h3>
+        <p class="duration">3 Months · Certificate</p>
+      </div>
+
+      <!-- INTERNSHIP 2 -->
+      <div class="internship-card">
+        <div class="internship-icon">🎨</div>
+        <h3>UI Design</h3>
+        <p class="duration">2 Months · Paid</p>
+      </div>
+
+      <!-- INTERNSHIP 3 -->
+      <div class="internship-card highlight">
+        <div class="internship-icon">📣</div>
+        <h3>Digital Marketing</h3>
+        <p class="duration">1 Month · Performance Based</p>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+
+<!--card section-->
+  <section class="section dark">
+  <div class="container task-eval-grid">
+
+    <!-- LEFT CONTENT -->
+    <div class="task-content">
+      <h2>Task-Based Evaluation</h2>
+      <p>
+        Companies post tasks, students submit work, and skills are evaluated fairly.
+      </p>
+
+      <ul class="task-points">
+        <li>✔ Post Tasks</li>
+        <li>✔ Track Progress</li>
+        <li>✔ Certificates & Rewards</li>
+      </ul>
+    </div>
+
+    <!-- RIGHT IMAGE -->
+    <div class="task-image">
+      <img src="assets/task.png" alt="Task Based Evaluation">
     </div>
 
   </div>
 </section>
 
+<section class="section dark">
+  <div class="container">
+    <h2 class="center-heading">Why Choose BLUEBOXX?</h2>
 
-<section class="stats-section">
+    <div class="elevated-card-grid">
 
-  <div class="stat-card">
-    <div class="icon dark">📘</div>
-    <h2 class="counter" data-target="3500">0</h2>
-    <p>Student Placed</p>
-  </div>
-
-  <div class="stat-card">
-    <div class="icon blue">👥</div>
-    <h2 class="counter" data-target="5000">0</h2>
-    <p>Student Enrolled</p>
-  </div>
-
-  <div class="stat-card">
-    <div class="icon orange">🏆</div>
-    <h2 class="counter" data-target="3000">0</h2>
-    <p>Projects Completed</p>
-  </div>
-
-  <div class="stat-card">
-    <div class="icon purple">❤️</div>
-    <h2 class="counter" data-target="1900">0</h2>
-    <p>Our Clients</p>
-  </div>
-
-</section>
-
-<section class="category-section">
-
-  <h2>Top Categories</h2>
-  <p class="subtitle">
-    Discover our most popular courses across key fields—designed to boost your
-    skills, fast-track your goals, and keep you ahead.
-  </p>
-
-  <div class="category-wrapper">
-
-    <!-- Left Arrow -->
-    <button class="arrow left" id="prevBtn">❮</button>
-
-    <!-- Slider -->
-    <div class="category-container" id="slider">
-
-      <!-- CATEGORY BOX -->
-      <div class="category-card">
-        <img src="https://cdn-icons-png.flaticon.com/512/1829/1829586.png">
-        <h4>Design</h4>
-        <span>1 Courses</span>
+      <div class="e-card">
+        <div class="icon">💼</div>
+        <h3>Job Listings</h3>
+        <p>Explore top job openings in various industries.</p>
       </div>
 
-      <div class="category-card">
-        <img src="https://cdn-icons-png.flaticon.com/512/3135/3135715.png">
-        <h4>Management</h4>
-        <span>0 Courses</span>
+      <div class="e-card">
+        <div class="icon">🎓</div>
+        <h3>Internship Opportunities</h3>
+        <p>Find the best internships for hands-on experience.</p>
       </div>
 
-      <div class="category-card">
-        <img src="https://cdn-icons-png.flaticon.com/512/3063/3063822.png">
-        <h4>Operations</h4>
-        <span>0 Courses</span>
+      <div class="e-card">
+        <div class="icon">📋</div>
+        <h3>Skill Assessments</h3>
+        <p>Evaluate your abilities with real-world tasks.</p>
       </div>
 
-      <div class="category-card">
-        <img src="https://cdn-icons-png.flaticon.com/512/942/942799.png">
-        <h4>Human Resource</h4>
-        <span>0 Courses</span>
-      </div>
-
-      <div class="category-card">
-        <img src="https://cdn-icons-png.flaticon.com/512/3281/3281306.png">
-        <h4>Content & Media</h4>
-        <span>1 Courses</span>
-      </div>
-
-      <div class="category-card">
-        <img src="https://cdn-icons-png.flaticon.com/512/1995/1995574.png">
-        <h4>Career Growth</h4>
-<span>1 Courses</span>
-      </div>
-
-      <div class="category-card">
-        <img src="https://cdn-icons-png.flaticon.com/512/4712/4712109.png">
-        <h4>AI / ML</h4>
-        <span>0 Courses</span>
-      </div>
-
-      <!-- ADD MORE BOXES -->
-      <div class="category-card">
-        <img src="https://cdn-icons-png.flaticon.com/512/2721/2721270.png">
-        <h4>Web Development</h4>
-        <span>4 Courses</span>
-      </div>
-
-      <div class="category-card">
-        <img src="https://cdn-icons-png.flaticon.com/512/2920/2920244.png">
-        <h4>Data Science</h4>
-        <span>3 Courses</span>
+      <div class="e-card">
+        <div class="icon">🗂️</div>
+        <h3>Task Management</h3>
+        <p>Stay organized with projects, tasks, and tracking.</p>
       </div>
 
     </div>
-
-    <!-- Right Arrow -->
-    <button class="arrow right" id="nextBtn">❯</button>
-
   </div>
 </section>
+<section class="section about-us">
+  <div class="container about-grid">
 
+    <!-- LEFT CONTENT -->
+    <div class="about-content">
+      <h2>About Us</h2>
 
+      <p class="highlight-text">
+        Welcome to <strong>Blueboxx Designs & Animation</strong>, a premier Corporate
+        Learning Institute specializing in UI/UX Design, Web Application Development,
+        Digital Marketing, Graphic Design, and more — serving professionals locally
+        and globally.
+      </p>
 
-<script src="script.js"></script>
+      <h4>Corporate Learning Institute</h4>
 
-</body>
-<!-- ABOUT US SECTION -->
-<section class="about-us">
-  <div class="about-container">
+      <p>
+        Blueboxx Designs & Animation is a trusted name in professional training and
+        digital services, offering specialized programs with a strong focus on
+        practical, project-based learning.
+      </p>
 
-    <h2>About Us</h2>
+      <p>
+        Our mission is to bridge the skills gap through real-world training,
+        expert guidance, and hands-on experience. Whether you're upskilling,
+        reskilling, or training a team, our flexible programs are designed to
+        meet your goals.
+      </p>
 
-    <p class="intro">
-      Welcome to <strong>Blueboxx Designs & Animation</strong>, a premier Corporate Learning
-      Institute specializing in UI/UX Design, Web Application Development,
-      Digital Marketing, Graphic Design, and more — serving professionals
-      both locally and globally.
-    </p>
+      <p>
+        With a strong reputation in both tech and education, Blueboxx DA stands
+        as a reliable learning partner delivering measurable results.
+      </p>
 
-    <h3>Corporate Learning Institute</h3>
-
-    <p>
-      Blueboxx Designs & Animation is a trusted name in professional training
-      and digital services, offering specialized programs in UI/UX Design,
-      Web Development, Digital Marketing, Graphic Design, and more.
-      We serve individuals and organizations globally with a focus on
-      practical, project-based learning.
-    </p>
-
-    <p>
-      Our mission is to bridge the skills gap through real-world training,
-      expert guidance, and hands-on experience. Whether you're upskilling,
-      reskilling, or training a team, our flexible programs are designed
-      to meet your goals.
-    </p>
-
-    <p>
-      With a strong reputation in both tech and education, Blueboxx DA
-      stands as a reliable learning partner delivering measurable results.
-    </p>
-
-    <div class="about-highlight">
       <h4>Your Gateway to Industry-Leading Online Courses</h4>
       <p>
-        Join one of the most trusted online learning platforms and
-        accelerate your career today.
+        Join one of the most trusted online learning platforms and accelerate
+        your career today.
+      </p>
+
+      <button class="btn primary about-btn">Know More</button>
+    </div>
+
+  </div>
+</section>
+
+<section class="footer-top">
+  <div class="container footer-top-grid">
+
+    <!-- ABOUT  -->
+    <div class="footer-col">
+      <h3>About</h3>
+      <p class="footer-desc">
+        Never Miss A Post! <br>
+        Choose the most powerful courses and always be on demand.
+      </p>
+
+      <div class="newsletter">
+        <input type="email" placeholder="Enter e-mail Address">
+        <button class="btn primary small">Join Us</button>
+      </div>
+    </div>
+
+    <!-- SUPPORT ZONE -->
+    <div class="footer-col">
+      <h4>Support Zone</h4>
+      <ul>
+        <li>Unlock Your Potential</li>
+        <li>Privacy Policy & Cookie Policy</li>
+        <li>Featured Courses</li>
+      </ul>
+    </div>
+
+    <!-- COMPANY INFO -->
+    <div class="footer-col">
+      <h4>Company Info</h4>
+      <ul>
+        <li>Learn with Blueboxx</li>
+        <li>Teach on Blueboxx</li>
+        <li>About Us</li>
+        <li>Contact Us</li>
+        <li>Work With Us</li>
+      </ul>
+    </div>
+
+    <!-- SERVICES -->
+    <div class="footer-col">
+      <h4>Explore Services</h4>
+      <ul>
+        <li>Careers</li>
+        <li>Help & Support</li>
+        <li>Terms</li>
+      </ul>
+    </div>
+
+  </div>
+</section>
+
+
+
+<footer class="footer">
+  <div class="container footer-grid">
+
+    <!-- LEFT : BRAND -->
+    <div class="footer-brand">
+      <h3>BLUEBOXX</h3>
+      <p>
+        Your trusted partner for skill-first learning, task-based evaluation,
+        and industry-ready training.
       </p>
     </div>
 
-  </div>
-</section>
-<!-- CONTACT INFO SECTION -->
-<section class="contact-info">
-  <div class="contact-container">
-
-    <div class="contact-box">
-      <h3>Call Us 24/7</h3>
-      <p class="contact-value">+91 9023512853</p>
+    <!-- MIDDLE : CONTACT -->
+    <div class="footer-contact">
+      <h4>Call Us 24/7</h4>
+      <p>📞 +91 9023512853</p>
+      <p>📍 Vadodara, Gujarat</p>
+      <p>✉ info.blueboxx@gmail.com</p>
     </div>
 
-    <div class="contact-box">
-      <h3>Location</h3>
-      <p class="contact-value">Vadodara, Gujarat</p>
-    </div>
-
-    <div class="contact-box">
-      <h3>Email Us</h3>
-      <p class="contact-value">info.blueboxx@gmail.com</p>
-    </div>
-
-    <div class="contact-box">
-      <h3>Follow Us</h3>
+    <!-- RIGHT : SOCIAL -->
+    <div class="footer-social">
+      <h4>Follow Us</h4>
       <div class="social-links">
-        <a href="#" aria-label="Instagram">Instagram-blueboxx.da</a>
-        <a href="#" aria-label="LinkedIn">LinkedIn-blueboxx.da</a>
-        <a href="#" aria-label="Facebook">Facebook-blueboxx.da</a>
+        <a href="#">LinkedIn-Blueboxx.DA</a>
+        <a href="#">Instagram-blueboxx.da</a>
+        <a href="#">Facebook-blueboxx.da</a>
       </div>
     </div>
 
   </div>
-</section>
 
+  <div class="footer-bottom">
+    © 2026 Blueboxx Designs & Animation. All rights reserved.
+  </div>
+</footer>
+
+
+<script src="script.js"></script>
+</body>
+</html>
